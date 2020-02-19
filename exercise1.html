@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <!--THIS IS A Table-->
+   <table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>House</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Harry Potter</td>
+            <td>Gryffindor</td>
+        </tr>
+        <tr>
+            <td>Luna Lovegood</td>
+            <td>Ravenclaw</td>
+        </tr>
+    </tbody>
+</table>
+    <!--THIS IS A Paragraph-->
+    <p>Please note that most of the tags in the code below have not been discussed <br/>
+        But at this point, you already know what opening and closing tagslook like.<br/> 
+        Without knowing the HTML tags, determine what the parents, children, and <br/>
+        siblings are by properly indenting the code below:
+   </p>
+<!--THIS IS AN ordered list-->
+    <ol>
+        <li>Father</li>
+        <li>Monther</li>
+        <li>sister</li>
+        <li>brother</li>
+    </ol>
+    <!--THIS IS AN unordered list-->
+    <ul>
+        <li>Noella</li>
+        <li>Bella</li>
+        <li>Eric</li>
+        <li>Rebeca</li>
+    </ul>
+    <!--THIS IS A Link -->
+    <a href="#">The Learning Platform</a>
+    <!--THIS IS AN Image -->
+    <img src="panda.PNG" alt="panda pic">
+    <!--THIS IS The Form-->
+    <form action="/our_future_server" method="POST">
+        <p>Dish Name: <input type="text" name="dish"></p>
+        <p>Description: <textarea name="desc"></textarea></p>
+        <p>Cuisine Type: <select name="type">
+            <option value="thai">Thai</option>
+            <option value="ethiopian">Ethiopian</option>
+            <option value="french">French</option>
+            <option value="indian">Indian</option>
+        </select></p>
+        <input type="submit" value="Add Food">
+    </form>
+    <form action="process.php" method="post">
+        <p>Please Register</p>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name">
+       
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name">
+       
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+       
+        <p>Select your gender:</p>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+       
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        
+        <label for="decline">Prefer not to say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+       
+        <p>Select 3 of your favorite colors:</p>
+        <label for="blue">Blue</label>
+        <input type="checkbox" id="blue" name="color" value="blue">
+        
+        <label for="green">Green</label>
+        <input type="checkbox" id="green" name="color" value="green">
+       
+        <label for="red">Red</label>
+        <input type="checkbox" id="red" name="color" value="red">
+        
+        <label for="black">Black</label>
+        <input type="checkbox" id="black" name="color" value="black">
+       
+        <label for="purple">Purple</label>
+        <input type="checkbox" id="purple" name="color" value="Purple">
+        
+        <p>Say a few words about yourself:</p>
+        <textarea name="description"></textarea>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+       <label for="pw_confirm">Password Confirmation:</label>
+       <input type="password" id="pw_confirm" name="password_confirmation">
+       
+       <input type="submit" value="Click here to register">
+    </form>
+</body>
+</html>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="process.php" method="post">
+        
+        <h3>My Registration Form</h3>
+ <table>
+          <tr>
+            
+           <td><label for="first_name"><b>First Name: </b></label></td>
+           <td><input type="text" id="first_name" name="first_name"></td>
+       </tr>
+
+       <tr>
+         <td><label for="last_name"><b>Last Name: </b></label></td>
+         <td><input type="text" id="last_name" name="last_name"></td>
+    </tr>
+
+     <tr>
+          <td><label for="email"><b>Email:</b></label></td>
+          <td><input type="text" id="email" name="email"></td>
+     </tr>
+
+      <tr>
+        <td><label for="password"><b>Password:</b></label>
+        <td><input type="password" id="password" name="password"></td> 
+       </tr>
+
+       <tr>
+          <td><label for="pw_confirm"><b>Password Confirmation:</b></label></td>
+          <td><input type="password" id="pw_confirm" name="password_confirmation"></td>
+        
+      </tr>
+        
+</table>
+<table>
+   <tr>
+      <td>
+        <label for="birthday"><b>Birthday:<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <input type="date" id="birthday" name="datetime">
+        <img align="center" width="25" height="28" src="calendar.png">
+      </td>
+   </tr>
+</table>
+  <table>
+    <tr>
+        <td><p>Select your gender:</p></td>
+    </tr>
+        <td>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="male"><b>Male</b></label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female"><b>Female</b></label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other"><b>other</b></label>
+        </td> 
+    </tr>
+  </table>
+            <br/>
+                    <p>Describer about yourself:</p>
+                    <textarea name="description"></textarea>
+            <br/>  <br/>
+                    <label for="language"><b>language:</b></label>
+                <select id="language" name="language">
+                    <option value="Swahili">Swahili</option>
+                    <option value="Fresh">Fresh</option>
+                    <option value="Eglish">Eglish</option>
+                    <option value="Arab">Arab</option>
+                </select>
+        <br/>  <br/>
+        <input type="submit" value="submit">
+    
+
+    </form>
+
+</body>
+</html>
